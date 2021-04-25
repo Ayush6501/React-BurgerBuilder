@@ -1,0 +1,16 @@
+.orderparent {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.parent {
+    width: 80%;
+    margin: auto;
+}
+
+.orderchild {
+    display: flex; 
+    margin: 20px;
+    flex-flow: row;
+}

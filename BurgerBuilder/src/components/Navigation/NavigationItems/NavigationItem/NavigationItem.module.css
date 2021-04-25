@@ -1,0 +1,35 @@
+.NavigationItem {
+    margin: 10px 0;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    align-items: center;
+    padding: .4em;
+}
+
+.NavigationItem a{
+    box-sizing: border-box; 
+    text-decoration: none;
+    display: block;
+    text-decoration: none;
+    color: #E07A5F;
+    border: 3px solid #E07A5F;
+    padding: .25em .5em;
+    margin: 0px .5em;
+    border-radius: 5em;
+    font-weight: bold;
+    font-size: 1.1em;
+    width: 100%;
+    text-align: center;
+} 
+
+a {
+    text-decoration: none;
+}
+.NavigationItem a:hover,
+.NavigationItem a:active, 
+.NavigationItem a.active {
+    background-color: #E07A5F;
+    color: #252323;
+}
+

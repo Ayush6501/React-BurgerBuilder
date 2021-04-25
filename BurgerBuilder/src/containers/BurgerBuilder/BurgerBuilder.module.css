@@ -1,0 +1,12 @@
+.burgercontainer {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row-reverse;
+    height: 90vh;
+}
+
+@media (max-width: 500px) {
+    .burgercontainer {
+        flex-flow: column;
+    }
+}

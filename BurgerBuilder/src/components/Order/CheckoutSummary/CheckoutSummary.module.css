@@ -1,0 +1,19 @@
+.CheckoutSummary {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.Head {
+    text-transform: capitalize;
+    font: inherit;
+    font-size: 3.5em;
+    color: #252323;
+    font-weight: bold;
+}
+
+@media (max-width: 500px) {
+    .Head {
+        line-height: 1em;
+    }
+}

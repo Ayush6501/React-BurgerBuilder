@@ -1,0 +1,21 @@
+.heroimg {
+    height: 550px;
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 720px) {
+    .heroimg {
+        height: 400px;
+        width: 400px;
+    }
+    
+}
+
+@media (max-width: 420px) {
+    .heroimg {
+        height: 300px;
+        width: 300px;
+    }
+    
+}

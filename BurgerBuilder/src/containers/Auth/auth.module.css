@@ -1,0 +1,107 @@
+.Auth {
+    /* margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    box-shadow: 0 2px 3px #ccc;
+    border: 1px solid #eee;
+    padding: 10px;
+    box-sizing: border-box; */
+    height: 91vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Authform 
+{
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+    left: 15px;   
+    top: 30px;
+}
+
+.Signup {
+    font-size: 2.7em;
+    font-weight: bold;
+    color: #E07A5F;
+    margin-top: 20px;
+}
+
+.Switch {
+    font-size: 1.5em;
+    font-weight: normal;
+    color: white;
+}
+
+.Switchto {
+    font-size: 1.5em;
+    font-weight: normal;
+    color: #E07A5F;
+    display: inline-block;
+}
+
+.error {
+    font-size: 1em;
+    font-weight: normal;
+    color: #E07A5F;
+    display: block;   
+}
+
+.Tag {
+    font-size: 1.3em;
+    font-weight: normal;
+    color: #E07A5F;
+    text-transform: capitalize;
+    position: relative;
+    text-align: left;
+}
+
+.Button {
+    box-sizing: border-box; 
+    text-decoration: none;
+    display: block;
+    text-decoration: none;
+    background-color: #151314;
+    color: #E07A5F;
+    border: 3px solid #E07A5F;
+    padding: .55em .5em;
+    margin: 0px .5em;
+    border-radius: 5em;
+    font-size: 1.1em;
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+    transition-duration: 0.4s;
+}
+
+.Button:hover {
+    background-color: #E07A5F;
+    color: #151413;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    padding-top: 5px;
+}
+/* @media (min-width: 600px) {
+    .Auth {
+        width: 500px;
+    }
+} */
+
+@media (max-width: 500px) {
+    .Authform {
+        left: 0px;
+    }
+}

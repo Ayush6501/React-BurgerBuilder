@@ -1,0 +1,10 @@
+.orderimg {
+    height: 600px;
+    padding: 0 40px 0 0 ;
+}
+
+@media (max-width: 500px) {
+    .orderimg {
+        display: none;
+    }
+}
